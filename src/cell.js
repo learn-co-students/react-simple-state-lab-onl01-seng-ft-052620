@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 
 
 
@@ -20,9 +21,11 @@ clickEvent = () => {
 
 render() {
     return (
-      <div className='cell' onClick={this.clickEvent} style={{backgroundColor: this.state.color}} >
- 
-      </div>
+      <div 
+      className='cell' 
+      style={{backgroundColor: this.state.color}} 
+      onClick={this.clickEvent}>
+    </div>
     )
   }
   
